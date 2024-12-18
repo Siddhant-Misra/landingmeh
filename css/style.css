@@ -77,6 +77,8 @@ Table of contents
   --camarone: #20642b;
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
+  --mindmapbackground: #23272A;
+  --mindmaptext: #00ff87;
 }
 /* ===================================
     03. Reset
@@ -95,7 +97,9 @@ body {
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;
-  color: var(--medium-gray);
+  background-color: var(--mindmapbackground);
+  color: var(--mindmaptext);
+  /* color: var(--medium-gray); */
   -moz-osx-font-smoothing: grayscale;
   word-break: break-word;
   -webkit-font-smoothing: antialiased;

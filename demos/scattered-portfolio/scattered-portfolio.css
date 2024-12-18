@@ -16,7 +16,7 @@
 @media (hover: hover) and (pointer: fine) {
     .custom-cursor .circle-cursor-outer {
         border: 1px solid transparent;
-        background: var(--base-color);
+        background: var(--mindmapbackground);
     }
     .custom-cursor .circle-cursor-inner {
         background: var(--black);

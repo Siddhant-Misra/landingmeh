@@ -19318,3 +19318,9 @@ footer .footer-navbar .nav-item:last-child a {
 .footer-demo img {
   max-height: 55px !important;
 }
+/* Hover effect for social icons and text */
+.elements-social a:hover i,
+.elements-social a:hover span {
+  color: #00ff87 !important;
+  transition: color 0.3s ease;
+}
